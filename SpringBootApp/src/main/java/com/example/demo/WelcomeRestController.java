@@ -23,4 +23,8 @@ public class WelcomeRestController {
 	public String greet() {
 		return "Greetings ...";
 	}
+	
+	@Getmapping("/hi")
+	public String sayHi(){
+		return "Hi....";
 }
