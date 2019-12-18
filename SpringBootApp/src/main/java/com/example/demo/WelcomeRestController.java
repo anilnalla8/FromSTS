@@ -18,4 +18,9 @@ public class WelcomeRestController {
 		String msg= "Hi " +name+ ", Welcome to REST API.....";
 		return msg;
 	}
+	
+	@GetMapping("/greet")
+	public String greet() {
+		return "Greetings ...";
+	}
 }
